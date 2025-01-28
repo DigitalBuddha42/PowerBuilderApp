@@ -6,4 +6,15 @@ import WorkoutSelectionScreen from '../screens/WorkoutSelectionScreen';
 
 const Stack = createStackNavigator();
 
-const Na
+const Navigation = () => {
+    return (
+        <NavigationContainer>
+            <Stack.Navigator initialRouteName="Welcome">
+                <Stack.Screen name="Welcome" component={WelcomeScreen} />
+                <Stack.Screen name="WorkoutSelection" component={WorkoutSelectionScreen}>
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
+};
+
+export default Navigation;
