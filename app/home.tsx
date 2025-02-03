@@ -22,7 +22,7 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
         placeholder="Enter your 1RM lift"
         keyboardType="numeric"
       />
-      <Button title="Next" onPress={handleSubmit} />
+      <Button title="Nex" onPress={handleSubmit} />
     </View>
   );
 };

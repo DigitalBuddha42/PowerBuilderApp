@@ -42,6 +42,7 @@
 // };
 //
 // export default SignUp;
+import SignUpComp from '../components/SignUpComp'
 import { View, Text, Button } from "react-native";
 import { useRouter } from "expo-router";
 
@@ -49,9 +50,6 @@ export default function SignUp() {
   const router = useRouter();
 
   return (
-    <View>
-      <Text>Sign Up</Text>
-      <Button title="Go to Sign In" onPress={() => router.push("/sign-in")} />
-    </View>
+    <SignUpComp />
   );
 }

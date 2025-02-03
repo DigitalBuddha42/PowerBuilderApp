@@ -15,7 +15,7 @@ export default function Layout() {
 const styles = StyleSheet.create({
   safeArea: {
       flex: 1,
-      backgroundColor: "#121212", // Dark background (adjust as needed)
+      backgroundColor: "#f4511e", // Dark background (adjust as needed)
     },
     container: {
       flex: 1, // Ensures full screen usage
